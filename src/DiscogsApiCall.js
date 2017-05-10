@@ -3,9 +3,8 @@
 function DiscogsApiCall(country) {
   this.url = 'https://api.discogs.com/database/search?&format=single&country=';
   this.country = country;
-  this.key = '';
-  this.secret = '';
-
+  this.key = '&key=wCLjKbdaipyYgYYlKimb';
+  this.secret = '&secret=qdMqNkUQufQxRUizeCEtZSXSmcTOtYwd';
 }
 
 DiscogsApiCall.prototype.sendRequest = function() {
@@ -34,7 +33,7 @@ DiscogsApiCall.prototype.formatTrackArray = function() {
   return formattedTracks;
 };
 
-//DA = new DiscogsApiCall('Sweden');
-//DA.sendRequest();
-//DA.getTrackArray(DA.jsonParseResponse());
-//DA.formatTrackArray()
+//DAC = new DiscogsApiCall('Sweden');
+//DAC.sendRequest();
+//DAC.getTrackArray(DA.jsonParseResponse());
+//DAC.formatTrackArray()
