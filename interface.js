@@ -13,15 +13,6 @@ $(document).ready(function() {
     window.location.replace('spotify:track:' + id);
   }
 
-  $('#displayTitle').click(function(){
-    track(queryArray);
-  });
-
-  $('#selected-country').change(function() {
-    var country = $('#selected-country').val();
-    CallDiscogs(country);
-  });
-
   function CallDiscogs(country){
     var discogsApiCall = new DiscogsApiCall(country);
     discogsApiCall.sendRequest();
@@ -30,4 +21,9 @@ $(document).ready(function() {
     console.log(discogsApiCall.formatTrackArray());
     track(queryArray);
   }
+  
+  $('#selected-country').change(function() {
+    var country = $('#selected-country').val();
+    CallDiscogs(country);
+  });
 });
