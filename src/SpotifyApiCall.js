@@ -9,7 +9,7 @@ function SpotifyApiCall(array) {
 
 SpotifyApiCall.prototype.lookUpAndStoreTrackIds = function(array) {
   for(var i = 0; i < array.length; i++) {
-    if(this.idArray.length < 10) {
+    if(this.idArray.length < 50) {
       this.sendRequest(array[i]);
       var jsonObj = this.jsonParseResponse();
       if(jsonObj.tracks.items[0] != undefined) {
