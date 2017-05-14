@@ -24,7 +24,7 @@ Screenshots
 
 1. Home page
 
-!Screen shot of home page](https://github.com/AlexJukes/beatroute/blob/master/image/demo_images/Screen%20Shot%202017-05-14%20at%2019.08.55.png?raw=true)
+![Screen shot of home page](https://github.com/AlexJukes/beatroute/blob/master/image/demo_images/Screen%20Shot%202017-05-14%20at%2019.08.55.png?raw=true)
 
 2. Log in screen.
 
