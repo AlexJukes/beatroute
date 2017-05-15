@@ -2,7 +2,7 @@
 
 Single page web app which enables a user to generate a Spotify playlist based on the country selection of their choice.
 
-This app is built using vanilla JavaScript and jQuery and was fully written using Test Driven Development and SOLID principles.
+This app was built in one week using vanilla JavaScript and jQuery and was fully written using Test Driven Development and SOLID principles.
 
 
 Setup
@@ -55,7 +55,7 @@ Acknowledgements
 
 The Spotify single-screen authorisation functionality and some related styling elements were taken directly from the Spotify tutorial materials on this subject, and can be found here:
 
- [https://github.com/spotify/web-api-auth-examples](https://github.com/spotify/web-api-auth-examples). 
+ [https://github.com/spotify/web-api-auth-examples](https://github.com/spotify/web-api-auth-examples).
 
 
 Known Issues
