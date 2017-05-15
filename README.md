@@ -1,4 +1,4 @@
-# Beatroute
+# Beatroutes
 
 Single page web app which enables a user to generate a Spotify playlist based on the country selection of their choice.
 
@@ -49,6 +49,13 @@ Technologies Used
 [Spotify API](https://developer.spotify.com/web-api/)
 
 - Used to authenticate user log-in and create playlist based on results returned by Discogs country lookup.
+
+Acknowledgements
+-----
+
+The Spotify single-screen authorisation functionality and some related styling elements were taken directly from the Spotify tutorial materials on this subject, and can be found here:
+
+ [https://github.com/spotify/web-api-auth-examples](https://github.com/spotify/web-api-auth-examples). 
 
 
 Known Issues
